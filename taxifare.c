@@ -11,12 +11,12 @@
 
 #include <stdio.h>
 #define FARE_PER_MILE 1.50
+#include "myutil.h"
 
 int main(int argc, char const *argv[])
 {
     /* 0. Print introductory interface */
-    printf("TAXI FARE CALCULATOR\n");
-    printf("by @deltadex7\n\n");
+    printTitle("TAXI FARE CALCULATOR");
 
     /* 1. Read inputs: beginning and ending odometer readings */
     double odo_begin, odo_end;

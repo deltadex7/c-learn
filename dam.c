@@ -15,6 +15,7 @@
  *************************************/
 
 #include <stdio.h>
+#include "myutil.h"
 
 int main(int argc, char const *argv[])
 {
@@ -22,8 +23,7 @@ int main(int argc, char const *argv[])
     const float EFFICIENCY = 0.9f;
     const float M3_KG = 1000;
 
-    printf("DAM POWER CALCULATOR\n");
-    printf("by @deltadex7\n\n");
+    printTitle("DAM POWER CALCULATOR");
 
     // 1. Prompt for dam height (m) and water flow (m^3/s)
     float height, flow;

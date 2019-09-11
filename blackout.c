@@ -18,11 +18,11 @@
  * */
 
 #include <stdio.h>
+#include "myutil.h"
 
 int main(int argc, char const *argv[])
 {
-    printf("FREEZER POWER FAILURE\n");
-    printf("by @deltadex7\n\n");
+    printTitle("FREEZER POWER FAILURE");
 
     // 1. Input time in hours and minutes, delimited by space
     int hours, minutes;
