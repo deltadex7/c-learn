@@ -18,11 +18,11 @@
  * */
 
 #include <stdio.h>
-#include "myutil.h"
+// #include "myutil.h"  // own header to print program title
 
 int main(int argc, char const *argv[])
 {
-    printTitle("FINAL PASS");
+    // printTitle("FINAL PASS"); // own function to print program title
 
     // 1. Read required variables
     char grade;
