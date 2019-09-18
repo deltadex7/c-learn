@@ -1,0 +1,3 @@
+Enter the number of population> 3000
+By installing 1000 new toilets for $150000,
+the community could save 182000 liters of water per day.

@@ -1,0 +1,3 @@
+Enter the number of gallons of oil burned> 100
+Enter the efficiency of the house's oil furnace> 65
+The heat delivered to the house is 8976190 BTUs
